@@ -7,6 +7,6 @@ function getWeather() {
     console.log(response.data.main.temp);
     let temp = response.data.main.temp;
     const result = document.getElementById("result");
-    result.innerHTML = `The Current Temprature of ${cityName} is ${temp} <span>&#176;</span>C`;
+    result.innerHTML = `The Current Temprature of ${cityName} is ${temp}<span>&#176;</span>C`;
   });
 }
