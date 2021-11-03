@@ -6,7 +6,7 @@ axios.get(URL).then(function (response) {
     console.log(response);
     console.log(response.data.main.temp);
     var temp = response.data.main.temp;
-    document.getElementById("result").innerHTML = `The Current Temprature of ${cityName} is ${temp} <span>&#176; </span>C`;
+    document.getElementById("result").innerHTML = `The Current Temprature of ${cityName} is ${temp} <span>&#176;</span>C`;
   })
 }
 
